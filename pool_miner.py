@@ -9,7 +9,7 @@ import threading
 difficulty = 1
 memory_cost = 1500 
 cores = 1
-account = "0x0A6969ffF003B760c97005e03ff5a97411261675" # Set your wallet address
+account = "0x98983b84F4a49D04bb86f1019cDf78152d417B5E" # Set your wallet address
 
 def hash_value(value):
     return hashlib.sha256(value.encode()).hexdigest()
